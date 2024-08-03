@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"code/contracts/HotelRoom.sol": "HotelRookm"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"code/contracts/HotelRoom.sol": {
+			"keccak256": "0xf4bece0546369143559819c21e05d29a4c042dc1974702ef833175bad435c871",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ed5c180d5fda4ad83d40fd787f34da598a1864df1d16cef8bffd633dab337542",
+				"dweb:/ipfs/QmXxVe9yLTQDiWhcwLk6kgiDhuMUBd7LP4TbQMeS9tRnjP"
+			]
+		}
+	},
+	"version": 1
+}

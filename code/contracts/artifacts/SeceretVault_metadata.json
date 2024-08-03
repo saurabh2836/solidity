@@ -1,0 +1,57 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_secret",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"code/contracts/NewContract.sol": "SeceretVault"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"code/contracts/NewContract.sol": {
+			"keccak256": "0x69fb0b4d1a0eb7ba4a70c8f3a36031de139f73aad5ca6b64369717c9b0eb2534",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3ae2bdaeb5d3de1ea38e8e874ece4a0cbd7cd83c920112f4650d016cfa02ee36",
+				"dweb:/ipfs/QmWTfsX8g4jMwF8ykYrNERDqbprVzZCxKrrFBGfCeaumMY"
+			]
+		}
+	},
+	"version": 1
+}

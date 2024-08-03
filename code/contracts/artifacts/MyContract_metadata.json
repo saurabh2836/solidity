@@ -7,59 +7,12 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "getValue",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "pure",
-				"type": "function"
+				"stateMutability": "nonpayable",
+				"type": "constructor"
 			},
 			{
 				"inputs": [],
-				"name": "myBytes32",
-				"outputs": [
-					{
-						"internalType": "bytes32",
-						"name": "",
-						"type": "bytes32"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "myString",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "myUint",
-				"outputs": [
-					{
-						"internalType": "int256",
-						"name": "",
-						"type": "int256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "myUint256",
+				"name": "countEvenNumbers",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -71,8 +24,46 @@
 				"type": "function"
 			},
 			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_number",
+						"type": "uint256"
+					}
+				],
+				"name": "isEvenNumber",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [],
-				"name": "myUnit8",
+				"name": "isOwner",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "numbers",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -85,17 +76,12 @@
 			},
 			{
 				"inputs": [],
-				"name": "mystruct",
+				"name": "owner",
 				"outputs": [
 					{
-						"internalType": "uint256",
-						"name": "myUint256",
-						"type": "uint256"
-					},
-					{
-						"internalType": "string",
-						"name": "myString",
-						"type": "string"
+						"internalType": "address",
+						"name": "",
+						"type": "address"
 					}
 				],
 				"stateMutability": "view",
@@ -130,11 +116,11 @@
 	},
 	"sources": {
 		"code/contracts/MyContract.sol": {
-			"keccak256": "0x83d36bf1b4681022f7bf4116ec227355a2e5196fd9f4553037dd974df225c95b",
+			"keccak256": "0xc3d7ffa5ef0077fb73fc0260cfab84005a4c490c8218c9a69cba89c299b614bb",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://6a2284f5fa9847bdb21f1debd8a6360ba52f8250dc319ef661838571f5eb6d66",
-				"dweb:/ipfs/QmUmLJ9k9dFZWoJy7cq4h679VDjoRhXzTYpvWRvmPVVD9J"
+				"bzz-raw://156cbb59f95b2fb42c4800ceb60c4dacbff167fa534dfdc62063bcdbc603af81",
+				"dweb:/ipfs/QmV7JBHTgAhTWoVVLhndkVdFMRcU3jNZH6XDkuu1LnF9y4"
 			]
 		}
 	},
