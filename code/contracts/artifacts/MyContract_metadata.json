@@ -17,6 +17,89 @@
 				],
 				"stateMutability": "pure",
 				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "myBytes32",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "myString",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "myUint",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "myUint256",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "myUnit8",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "mystruct",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "myUint256",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "myString",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -47,11 +130,11 @@
 	},
 	"sources": {
 		"code/contracts/MyContract.sol": {
-			"keccak256": "0x0611e053c3aacae40c992b3d2944a396f95c9ae43b4a739f24eab6661a3f15f3",
+			"keccak256": "0x83d36bf1b4681022f7bf4116ec227355a2e5196fd9f4553037dd974df225c95b",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://c262f13588f726e3fa7622fc668a265058c7127c67116bf28f5d54c4ace2e5a9",
-				"dweb:/ipfs/QmPzHBUP3xQXRMKXVVXxPhzq2Rdc4WHY4nUTFeC3uYyDsT"
+				"bzz-raw://6a2284f5fa9847bdb21f1debd8a6360ba52f8250dc319ef661838571f5eb6d66",
+				"dweb:/ipfs/QmUmLJ9k9dFZWoJy7cq4h679VDjoRhXzTYpvWRvmPVVD9J"
 			]
 		}
 	},
